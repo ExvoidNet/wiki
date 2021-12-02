@@ -1,0 +1,87 @@
+/* To anyone who might be reading this, please know the mess below isn't organized */
+
+/* Docusaurus' CSS uses Infima by default */
+
+/* stylelint-disable docusaurus/copyright-header */
+
+/*
+  * Branding
+*/
+@font-face {
+	font-family: "Gohtam";
+	src: url('/static/GothamBook.ttf') format('truetype');
+  }
+
+:root {
+  --ifm-color-primary: #ff0c00;
+  --ifm-color-primary-dark: #e65100;
+  --ifm-color-primary-darker: #d94d00;
+  --ifm-color-primary-darkest: #b33f00;
+  --ifm-color-primary-light: #ff241a;
+  --ifm-color-primary-lighter: #ff3026;
+  --ifm-color-primary-lightest: #ff554d;
+  --ifm-code-font-size: 95%;  
+  --ifm-font-family-monospace: "Gohtam";
+  --ifm-font-family-base: "Gohtam"
+}
+
+/*
+  * Navbar
+*/ 
+html[data-theme='light'] .navbar {
+	background-color: white;	
+}
+
+html[data-theme='light'] .navbar__brand {
+	color: black;
+  }
+
+html[data-theme='dark'] .navbar {
+	background-color: #0e0d0d;	
+}
+
+/*
+  * Background
+*/ 
+html[data-theme='dark'] {
+	background-color: #0e0d0d;
+  }
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*
+  * Footer
+*/
+html[data-theme='light'] .footer {
+	background-color: white;
+	color: black
+}
+
+html[data-theme='dark'] .footer {
+	background-color: #0e0d0d;	
+}
+
+/*
+  * Navigation
+/
+.pagination-nav__link {
+	background-color: ;
+}
+*/
+
+/* One of these two is the correct one... */
+
+div[class^='announcementBarContent'] {
+	background: linear-gradient(90deg, #ff0c00 0%, #ff5a00 100%);
+	font-weight: bolder;
+	color: white;
+}
+
+.announcementBar {
+	background: rgb(255,12,0);
+	background: linear-gradient(0deg, rgba(255,12,0,1) 0%, rgba(255,90,0,1) 100%);
+  }
+
+/* p a i n */
