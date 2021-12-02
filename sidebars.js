@@ -1,22 +1,13 @@
 // @ts-check
 const sidebars = {
 	exvoidnet: [
-	  'introduction',
-	  {
-		type: 'category',
-		label: 'Exvoid Network',
-		collapsed: false,
-		collapsible: true,
-		items: [
-		  'about',
-		  'staff',
-		  'guidelines',
-		  'legal',
-		  'donate',
-		  'feedback',
-		  'apply',
-		],
-	  },
+		'about',
+		'staff',
+		'guidelines',
+		'legal',
+		'donate',
+		'feedback',
+		'apply',
 	],
 
 	servers: [

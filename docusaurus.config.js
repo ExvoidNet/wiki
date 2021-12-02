@@ -55,6 +55,7 @@ const config = {
     ({
       navbar: {
         title: 'Wiki',
+		hideOnScroll: true,
         logo: {
           alt: 'Wiki Logo',
           src: 'img/logo.png',
@@ -62,7 +63,8 @@ const config = {
 		items: [
 		  {
 			to: "/",
-			label: "Introduction",
+			activeBasePath: "/about",
+			label: "À-Propos",
 			position: "right",
 		  },
 		  {
