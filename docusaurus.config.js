@@ -61,7 +61,7 @@ const config = {
         },
 		items: [
 		  {
-			to: "introduction",
+			to: "/",
 			label: "Introduction",
 			position: "right",
 		  },
