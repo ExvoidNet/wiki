@@ -1,9 +1,9 @@
 ---
-title: Premier Pas
+title: Getting Started
 ---
 
 :::danger Placeholder
 
-Ceci est un placeholder, le contenu de cette page n'est présentement pas disponible.
+This is a placeholder, the content on this page is currently not available.
 
 :::
