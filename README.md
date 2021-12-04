@@ -1,4 +1,25 @@
-<img src="/static/img/header.png" height="150">
+<!--
+*** Using the Best-README-Template (https://github.com/othneildrew/Best-README-Template).
+-->
 
-# Description
-Le wiki officiel pour Exvoid Network. / Exvoid Network official wiki.
+<!-- BACK TO TOP  -->
+<div id="top"></div>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/ExvoidNet/wiki">
+    <img src="/static/img/header.png" alt="Logo" width="350">
+  </a>
+
+<h3 align="center">Wiki</h3>
+
+  <p align="center">
+    Le wiki officiel d'Exvoid Network construit avec Docusaurs.
+    <br />
+    <i>Official Exvoid Network wiki built with Docusaurus.</i>
+    <br />
+    <br />
+    <a href="https://github.com/ExvoidNet/wiki/issues/new/choose"><strong>Faire une suggestion / Make a suggestion »</strong></a>
+  </p>
+</div>
