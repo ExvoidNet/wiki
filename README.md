@@ -12,6 +12,7 @@
     <img src="/static/img/header.png" alt="Logo" width="350">
   </a>
 
+<!-- ABOUT -->
 <h3 align="center">Wiki</h3>
 
   <p align="center">
