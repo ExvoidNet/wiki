@@ -85,3 +85,15 @@ div[class^='announcementBarContent'] {
   }
 
 /* p a i n */
+
+/* custom admonition color for faq */
+.admonition-réponse {
+
+	border-color: #b30c0c;
+	border-style: solid;
+	border-width: var(--ifm-alert-border-width);
+	border-left-width: var(--ifm-alert-border-left-width);
+	border-radius: var(--ifm-alert-border-radius);
+	box-shadow: var(--ifm-alert-shadow);
+	padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
+  }

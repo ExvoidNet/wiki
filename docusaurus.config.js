@@ -42,6 +42,15 @@ const config = {
 		  showLastUpdateTime: true,		  
 		  routeBasePath: '/',
           editUrl: 'https://github.com/ExvoidNet/wiki/edit/master/',
+		  admonitions: {
+			icons: "emoji",  
+            customTypes: {
+              réponse: {
+                keyword: "réponse",
+				emoji: "📣",
+              },
+            },
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,14 +72,14 @@ const config = {
 		items: [
 		  {
 			to: "/",
-			activeBasePath: "/about",
-			label: "À-Propos",
-			position: "right",
+			activeBasePath: "servers/getting_started",
+			label: "Expérience",
+		 	position: "right",
 		  },
 		  {
-			to: "servers/getting_started",
-			label: "Serveurs",
-		 	position: "right",
+			to: "/about",
+			label: "À-Propos",
+			position: "right",
 		  },
 		  {
 			to: "support/troubleshooting",
@@ -83,12 +92,12 @@ const config = {
 			position: 'right',
 			items: [
 			  {
-				label: 'Discord',
-				href: 'https://discord.com',
-			  },
-			  {
 				label: 'Feedbacky',
 				href: 'https://feedback.exvoid.net',
+			  },
+			  {
+				label: 'Discord',
+				href: 'https://discord.com',
 			  },
 			  {
 				label: 'Steam',
@@ -121,9 +130,7 @@ const config = {
 		id: 'announcement',
 		content:
 			'<b>Le wiki est présentement en développement! / English localization not yet available.</b>',
-		backgroundColor: '#ff0c00',
-		textColor: '#ffffff',
-		isCloseable: true,
+		isCloseable: false,
 	  },  
       prism: {
         theme: lightCodeTheme,
