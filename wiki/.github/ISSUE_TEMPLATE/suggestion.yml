@@ -1,0 +1,60 @@
+name: Suggestion
+description: Faire une suggestion. / Make a suggestion.
+title: "[Suggestion]: "
+labels: ["suggestion"]
+assignees:
+  - Matou0014
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de remplir le formulaire de suggestion ci-dessous. / Please fill out the below suggestion form below.
+
+  - type: input
+    id: title
+    attributes:
+      label: Titre/Title
+      description: Quel est le titre de ta suggestion? / What is the title of your suggestion?
+      placeholder: ex. "Ajout de page. / Add a page."
+    validations:
+     required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Dans quelle catégorie votre suggestion tomberait-elle? / What category would your suggestion fall under? 
+      description: Voir le titre. / Title is self-explanatory.
+      options:
+        - Page 
+        - Serveurs / Servers
+        - Correction Ortographique / Typo Fix
+        - Correction Autre / Other fix
+        - Autre / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Décris ta suggestion. / Describe your suggestion.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source (si possible/if possible)
+      description: Veuillez attacher le lien a la source original. / Please link the original source of your suggestion.
+      placeholder: ex; Lien/Link, Autheur/Author..
+    validations:
+     required: false
+
+  - type: checkboxes
+    id: duplicate
+    attributes:
+      label: Pas un dupliquer/Not a duplicate
+      description: Veuillez confirmer que ta suggestio n'existe déja pas, si oui veuillez commenter sur la suggestion éxistante. / Please confirm that your suggestion doesn't already exist, if it does please comment on the already existing suggestion.
+      options:
+        - label: Je confirme que ma suggestion n'existe pas déjà. / I confirm that my suggestion doesn't already exists.
+          required: true

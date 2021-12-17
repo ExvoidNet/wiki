@@ -26,7 +26,8 @@ module.exports = {
         },
         items: [
           {
-            to: "servers/getting_started",
+            to: "/",
+	          activeBasePath: "servers/getting_started",
 		        label: "Expérience",
 		        position: "right",
           },
