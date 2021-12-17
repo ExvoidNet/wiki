@@ -78,7 +78,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 /*
-	* Showcase Tags
+	Showcase Tags
  	(Note that we are also using Webkit for compatibility)
 */
 .admin__tag {
@@ -106,7 +106,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 /*
-	* Contribution
+	Contribution
 */
 .contribution {
 	font-family: 'Gotham';
@@ -114,7 +114,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 /*
-	* Twitch
+	Twitch
 */
 .twitch > a {
 	color: #9146FF;
