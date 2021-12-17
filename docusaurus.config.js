@@ -12,11 +12,11 @@ module.exports = {
     favicon: 'img/logo.png',
     organizationName: 'ExvoidNEt',
     projectName: 'wiki',
+    i18n: {
+        defaultLocale: 'fr',
+        locales: ['fr', 'en'],
+    },
     themeConfig: {
-        i18n: {
-            defaultLocale: 'fr',
-            locales: ['fr', 'en'],
-        },
         navbar: {
             title: 'Wiki',
             hideOnScroll: true,
