@@ -1,17 +1,20 @@
-/* To anyone who might be reading this, please know the mess below isn't organized */
-
-/* Docusaurus' CSS uses Infima by default */
-
-/* stylelint-disable docusaurus/copyright-header */
-
 /*
-  * Branding
+	Font Familly
 */
 @font-face {
-	font-family: "Gohtam";
+	font-family: "Gotham";
 	src: url('/static/GothamBook.ttf') format('truetype');
   }
 
+@font-face {
+	font-family: "Minecraft-Regular";
+	src: url('/static/Minecraft-Regular.ttf.woff');
+}
+
+/*
+  	Branding
+	(Docusaurus uses Infima by default)
+*/
 :root {
   --ifm-color-primary: #ff0c00;
   --ifm-color-primary-dark: #e65100;
@@ -21,27 +24,36 @@
   --ifm-color-primary-lighter: #ff3026;
   --ifm-color-primary-lightest: #ff554d;
   --ifm-code-font-size: 95%;  
-  --ifm-font-family-monospace: "Gohtam";
-  --ifm-font-family-base: "Gohtam"
+  --ifm-font-family-monospace: "Gotham";
+  --ifm-font-family-base: "Gotham"
+}
+
+/* 
+	Announcement Bar
+*/
+div[class^='announcementBarContent'] {
+	background: linear-gradient(90deg, #ff0c00 0%, #ff5a00 100%);
+	font-weight: bolder;
+	color: #ffff;
 }
 
 /*
-  * Navbar
-*/ 
+ 	Navigation Bar
+*/
 html[data-theme='light'] .navbar {
-	background-color: white;	
+	background-color: #ffff;	
+}
+
+html[data-theme='dark'] .navbar {
+	background-color: #0e0d0d;	
 }
 
 html[data-theme='light'] .navbar__brand {
 	color: black;
   }
 
-html[data-theme='dark'] .navbar {
-	background-color: #0e0d0d;	
-}
-
 /*
-  * Background
+  	Background
 */ 
 html[data-theme='dark'] {
 	background-color: #0e0d0d;
@@ -52,43 +64,69 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 /*
-  * Footer
+	* Showcase
 */
-html[data-theme='light'] .footer {
-	background-color: white;
-	color: black
+
+.showcase {
+	font-family: 'Minecraft-Regular';
+	font-size: 25px;
 }
 
-html[data-theme='dark'] .footer {
-	background-color: #0e0d0d;	
+.showcase > td {
+	border: none;
+	padding-right: 20px;
 }
 
 /*
-  * Navigation
-/
-.pagination-nav__link {
-	background-color: ;
-}
+	* Showcase Tags
+ 	(Note that we are also using Webkit for compatibility)
 */
-
-/* One of these two is the correct one... */
-
-div[class^='announcementBarContent'] {
-	background: linear-gradient(90deg, #ff0c00 0%, #ff5a00 100%);
-	font-weight: bolder;
-	color: white;
+.admin__tag {
+	font-weight: 900;
+	background: linear-gradient(to right, #ff1b00 0%, #ff5a00 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
-.announcementBar {
-	background: rgb(255,12,0);
-	background: linear-gradient(0deg, rgba(255,12,0,1) 0%, rgba(255,90,0,1) 100%);
-  }
+.builder__tag {
+	font-weight: 900;
+	background: linear-gradient(to right, #ff9c00 0%, #ff5a00 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
-/* p a i n */
+.partner__tag {
+	font-weight: 900;
+	background: linear-gradient(to right, #039fff 0%, #19a8ff 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
-/* custom admonition color for faq */
+/*
+	* Contribution
+*/
+.contribution {
+	font-family: 'Gotham';
+	font-size: 12px;
+}
+
+/*
+	* Twitch
+*/
+.twitch > a {
+	color: #9146FF;
+	text-decoration: none;
+	font-family: 'Gotham';
+	font-size: 16px;
+}
+
+/*
+  	Custom Admonition
+*/
 .admonition-réponse {
-
 	border-color: #b30c0c;
 	border-style: solid;
 	border-width: var(--ifm-alert-border-width);
@@ -97,3 +135,25 @@ div[class^='announcementBarContent'] {
 	box-shadow: var(--ifm-alert-shadow);
 	padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
   }
+
+/*
+  	Navigation Link
+*/
+.pagination-nav__link:hover {
+	background-color: #ff3026;
+	border-color: #ff3026;
+	font-weight: bolder;
+	color: #ffff;
+}
+
+/*
+  	Footer
+*/
+html[data-theme='light'] .footer {
+	background-color: #ffff;
+	color: black
+}
+
+html[data-theme='dark'] .footer {
+	background-color: #0e0d0d;	
+}

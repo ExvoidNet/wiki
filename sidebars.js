@@ -95,18 +95,16 @@ const sidebars = {
 	exvoidnet: [
 		'about',
 		'staff',
-		'guidelines',
-		'legal',
-		'donate',
 		'feedback',
-		'apply',
+		'donate',
+//		'apply',
 	],
 
 	support: [
 		'support/troubleshooting',
+		'support/guidelines',
+		'support/legal',
 	],
 
 };
   module.exports = sidebars;
-
-  
