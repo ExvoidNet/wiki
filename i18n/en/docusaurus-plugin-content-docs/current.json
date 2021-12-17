@@ -1,0 +1,42 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.servers.category.Minecraft": {
+    "message": "Minecraft",
+    "description": "The label for category Minecraft in sidebar servers"
+  },
+  "sidebar.servers.category.Hub": {
+    "message": "Hub",
+    "description": "The label for category Hub in sidebar servers"
+  },
+  "sidebar.servers.category.Survival": {
+    "message": "Survival",
+    "description": "The label for category Survival in sidebar servers"
+  },
+  "sidebar.servers.category.Creative": {
+    "message": "Creative",
+    "description": "The label for category Creative in sidebar servers"
+  },
+  "sidebar.servers.category.Arena": {
+    "message": "Arena",
+    "description": "The label for category Arena in sidebar servers"
+  },
+  "sidebar.servers.category.Arcade": {
+    "message": "Arcade",
+    "description": "The label for category Arcade in sidebar servers"
+  },
+  "sidebar.servers.category.Remission": {
+    "message": "Remission",
+    "description": "The label for category Remission in sidebar servers"
+  },
+  "sidebar.servers.category.Zombie": {
+    "message": "Zombie",
+    "description": "The label for category Zombie in sidebar servers"
+  },
+  "sidebar.servers.category.Roleplay": {
+    "message": "Roleplay",
+    "description": "The label for category Roleplay in sidebar servers"
+  }
+}
