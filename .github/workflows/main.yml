@@ -21,7 +21,7 @@ jobs:
         run: |
           npm install 
           npm run build
-   #       cp -r docs/** i18n/fr/docusaurus-plugin-content-docs/current
+          cp -r docs/** i18n/fr/docusaurus-plugin-content-docs/current
           cp -r docs/** i18n/en/docusaurus-plugin-content-docs/current
       - name: Deploy to GitHub Pages
         if: success()
