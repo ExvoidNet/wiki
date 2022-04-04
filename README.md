@@ -16,7 +16,7 @@
 <h3 align="center">Wiki</h3>
 
   <p align="center">
-    Le wiki officiel d'Exvoid Network construit avec Docusaurs.
+    Le wiki officiel d'Exvoid Network construit avec Docusaurus.
     <br />
     <i>Official Exvoid Network wiki built with Docusaurus.</i>
     <br />
