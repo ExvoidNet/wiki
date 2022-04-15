@@ -30,18 +30,6 @@ module.exports = {
             ]
         },
 
-        // Resources
-        {
-            type: 'category',
-            label: 'Ressources',
-            collapsed: true,
-            items: [
-                'resources/feedback', 
-                'resources/guidelines', 
-                'resources/legal',
-            ]
-        },
-
     ],
 
     // Minecraft
