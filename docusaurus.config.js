@@ -57,7 +57,7 @@ const config = {
           },
           {
             type: 'dropdown',
-            label: 'Expériences',
+            label: 'Serveurs',
             position: "left",
             items: [
               {
