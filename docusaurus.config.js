@@ -15,9 +15,11 @@ const config = {
   favicon: 'img/logo.png',
   organizationName: 'ExvoidNet',
   projectName: 'wiki',
-  i18n: {
-    defaultLocale: 'fr',
-    locales: ['fr', 'en'],
+/* Temporarily disable locales
+*  i18n: {
+*    defaultLocale: 'fr',
+*    locales: ['fr', 'en'],
+*/
   },
 
   presets: [
