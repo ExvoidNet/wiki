@@ -71,7 +71,7 @@ const config = {
             ]
           },
           {
-            to: 'resources/lega',
+            to: 'resources/legal',
             label: "Ressources",
             position: "left",
           },
