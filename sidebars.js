@@ -40,101 +40,118 @@ module.exports = {
             id: 'servers/minecraft/gettingStarted',
         },
 
-        // Remission
+        // Modes
         {
             type: 'category',
-            label: 'Remission',
+            label: 'Modes',
             collapsed: true,
-            link: {
-                type: 'doc',
-                id: 'servers/minecraft/remission/information',
-            },
             items: [
-                'servers/minecraft/remission/faq',
+                // Remission
+                {
+                    type: 'category',
+                    label: 'Remission',
+                    collapsed: true,
+                    link: {
+                        type: 'doc',
+                        id: 'servers/minecraft/remission/information',
+                    },
+                    items: [
+                        'servers/minecraft/remission/faq',
+                    ]
+                },
+                
+                // Creative
+                /*
+                {
+                    type: 'category',
+                    label: 'Remission',
+                    collapsed: true,
+                    link: {
+                        type: 'doc',
+                        id: 'servers/minecraft/remission/information',
+                    },
+                    items: [
+                        'servers/minecraft/remission/faq',
+                    ]
+                },
+                */
+                
+                // Arenae
+                /*
+                {
+                    type: 'category',
+                    label: 'Remission',
+                    collapsed: true,
+                    link: {
+                        type: 'doc',
+                        id: 'servers/minecraft/remission/information',
+                    },
+                    items: [
+                        'servers/minecraft/remission/faq',
+                    ]
+                },
+                */
+                
+                // Arcade
+                /*
+                {
+                    type: 'category',
+                    label: 'Remission',
+                    collapsed: true,
+                    link: {
+                        type: 'doc',
+                        id: 'servers/minecraft/remission/information',
+                    },
+                    items: [
+                        'servers/minecraft/remission/faq',
+                    ]
+                },
+                */
+                
+                // Zombie
+                /*
+                {
+                    type: 'category',
+                    label: 'Remission',
+                    collapsed: true,
+                    link: {
+                        type: 'doc',
+                        id: 'servers/minecraft/remission/information',
+                    },
+                    items: [
+                        'servers/minecraft/remission/faq',
+                    ]
+                },
+                */
+                
+                // Roleplay
+                /*
+                {
+                    type: 'category',
+                    label: 'Remission',
+                    collapsed: true,
+                    link: {
+                        type: 'doc',
+                        id: 'servers/minecraft/remission/information',
+                    },
+                    items: [
+                        'servers/minecraft/remission/faq',
+                    ]
+                },*/
             ]
-        }
-
-        //  Creative
-        /*
+        },
+        
+        // Resources
         {
             type: 'category',
-            label: 'Creative',
+            label: 'Resources',
             collapsed: true,
-            link: {
-                type: 'doc',
-                id: 'servers/minecraft/creative/information',
-            },
             items: [
-                'servers/minecraft/unturned/',
+                'resources/legal'
             ]
         }
-        */
-
-        //  Arena
-        /*
-        {
-            type: 'category',
-            label: 'Arena',
-            collapsed: true,
-            link: {
-                type: 'doc',
-                id: 'servers/minecraft/arena/information',
-            },
-            items: [
-                'servers/minecraft/arena/',
-            ]
-        }
-        */
-       
-        //  Arcade
-        /*
-        {
-            type: 'category',
-            label: 'Arcade',
-            collapsed: true,
-            link: {
-                type: 'doc',
-                id: 'servers/minecraft/arcade/information',
-            },
-            items: [
-                'servers/minecraft/arcade/',
-            ]
-        }
-        */
-       
-        //  Zombie
-        /*
-        {
-            type: 'category',
-            label: 'Zombie',
-            collapsed: true,
-            link: {
-                type: 'doc',
-                id: 'servers/minecraft/zombie/information',
-            },
-            items: [
-                'servers/minecraft/zombie/',
-            ]
-        }
-        */
-       
-        //  Roleplay
-        /*
-        {
-            type: 'category',
-            label: 'Roleplay',
-            collapsed: true,
-            link: {
-                type: 'doc',
-                id: 'servers/minecraft/roleplay/information',
-            },
-            items: [
-                'servers/minecraft/roleplay/',
-            ]
-        }
-        */
     ],
-
+                
     // Unturned
     unturned: [
         {
