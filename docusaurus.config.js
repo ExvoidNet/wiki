@@ -15,11 +15,6 @@ const config = {
   favicon: 'img/logo.png',
   organizationName: 'ExvoidNet',
   projectName: 'wiki',
-/* Temporarily disable locales
-*  i18n: {
-*    defaultLocale: 'fr',
-*    locales: ['fr', 'en'],
-*/
   },
 
   presets: [
@@ -35,15 +30,6 @@ const config = {
           showLastUpdateTime: true,
           routeBasePath: '/',
           breadcrumbs: true,
-          admonitions: {
-              icons: "emoji",
-              customTypes: {
-                  réponse: {
-                      keyword: "réponse",
-                      emoji: "📣",
-                  },
-              },
-          },
           editUrl: 'https://github.com/ExvoidNet/wiki/edit/master/',
         },
         theme: {
