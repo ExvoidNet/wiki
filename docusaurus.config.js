@@ -71,7 +71,7 @@ const config = {
             ]
           },
           {
-            to: 'resources/resources',
+            to: 'resources/lega',
             label: "Ressources",
             position: "left",
           },
