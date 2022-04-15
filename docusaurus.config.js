@@ -15,7 +15,6 @@ const config = {
   favicon: 'img/logo.png',
   organizationName: 'ExvoidNet',
   projectName: 'wiki',
-  },
 
   presets: [
     [
